@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .header {
+            background-color: darkturquoise;
+            height: 40px;
+            position: fixed;
+            width: 100%;
+        }
+        
+        .nav-list {
+            height: 40px;
+        }
+        
+        .nav-item {
+            list-style-type: none;
+            float: left;
+            vertical-align: middle;
+            margin-left: 16px;
+            color: white;
+        }
+        
+        .content {
+            background-color: beige;
+            height: 5000px;
+        }
+        
+        .head {
+            clear: both;
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+            position: relative;
+            top: 50%;
+            left: 50%;
+        }
+        
+        .ear {
+            height: 60px;
+            width: 40px;
+            background-color: brown;
+            position: relative;
+            margin-top: -60px;
+        }
+        
+        .ear_left {
+            float: left;
+            height: -40px;
+            margin-left: -40px;
+        }
+        
+        .ear_right {
+            float: right;
+            margin-right: -40px;
+        }
+        
+        .eye {
+            position: relative;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background-color: gray;
+            margin-top: 80;
+        }
+        
+        .eye_right {
+            float: right;
+            margin-right: 40px;
+            margin-top: 80px;
+        }
+        
+        .eye_left {
+            float: left;
+            margin-left: 40px;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nvigation">
+            <ul class="nav-list">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Products</li>
+                <li class="nav-item">Contacts</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <div class="head">
+            <div class="ear ear_right"></div>
+            <div class="ear ear_left"></div>
+            <div class="eye eye_right"></div>
+            <div class="eye eye_left"></div>
+        </div>
+    </main>
+</body>
+
+</html>
