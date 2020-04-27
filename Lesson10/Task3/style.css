@@ -55,16 +55,18 @@ ul {
 .news {
     width: 200px;
     background-color: gray;
-    flex-direction: column;
 }
 
 .side__header {
     display: flex;
     justify-content: center;
-    margin: 16px auto;
+    margin: 16px 0px;
 }
 
 .news__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0;
 }
 
