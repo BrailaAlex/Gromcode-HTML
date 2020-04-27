@@ -19,6 +19,7 @@
     margin: 0;
     display: flex;
     list-style-type: none;
+    padding-left: 0px;
 }
 
 .navigation_item {
@@ -61,9 +62,9 @@
 
 .news__list {
     margin: 0;
-    height: 40px;
 }
 
 .news__item {
     margin-left: 16px;
+    height: 40px;
 }
