@@ -15,6 +15,7 @@
 
 .article {
     margin: 8px;
+    margin-bottom: 16px;
     padding: 16px;
     background-color: bisque;
     width: 300px;
