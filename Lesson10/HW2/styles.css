@@ -10,7 +10,6 @@ header {
 .articles-list {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 8px;
 }
 
 .article {
