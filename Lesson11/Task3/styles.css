@@ -20,6 +20,7 @@
 
 .menu-list {
     top: 50px;
+    left: 0;
     min-width: 120px;
     position: absolute;
     color: black;
