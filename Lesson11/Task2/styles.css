@@ -19,6 +19,7 @@
 
 .both-scrolls {
     overflow: scroll;
+    cursor: all-scroll;
 }
 
 .vertical-scroll {

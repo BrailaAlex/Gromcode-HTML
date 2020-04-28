@@ -1,0 +1,13 @@
+li {
+    margin: 4px;
+}
+
+ul {
+    color: grey;
+    font-size: 20px;
+}
+
+.list {
+    color: red;
+    font-size: 24px;
+}

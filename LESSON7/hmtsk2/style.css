@@ -1,0 +1,52 @@
+body {
+    background: #bdc3c7;
+}
+
+h1 {
+    color: #9b59b6;
+}
+
+h2 {
+    color: orange;
+}
+
+p {
+    background-color: yellow;
+}
+
+li {
+    color: blue;
+}
+
+input {
+    border: 3px solid red;
+}
+
+.hello {
+    background-color: white;
+}
+
+#special {
+    border: 2px solid blue;
+}
+
+div p {
+    margin-left: 25px;
+}
+
+input[type="text"] {
+    background-color: gray;
+}
+
+div:last-child {
+    background-color: red
+}
+
+div:nth-child(3) p:nth-child(2) {
+    border: 5px white;
+}
+
+div:nth-child(3) p em {
+    color: white;
+    font-size: 20px;
+}
