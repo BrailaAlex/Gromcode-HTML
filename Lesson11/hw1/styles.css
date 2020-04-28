@@ -1,15 +1,44 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
+.tooltip-text {
+    display: inline-block;
+    position: relative;
+    margin: 16px;
+}
+
+.text {
+    border-bottom: 1px dotted black;
+    visibility: hidden;
+}
+
 .tooltip {
+    position: absolute;
+    background-color: grey;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    bottom: -40px;
+}
+
+.tooltip:hover .text {
+    visibility: visible;
+} */
+
+
+/* * {
+    box-sizing: border-box;
+}
+
+.tooltip-text {
     display: inline-block;
     position: relative;
     border-bottom: 1px dotted black;
     margin: 16px;
 }
 
-.tooltip-text {
+.tooltip {
     position: absolute;
     background-color: grey;
     color: white;
@@ -19,6 +48,31 @@
     display: none;
 }
 
-.tooltip:hover .tooltip-text {
+.tooltip-text:hover .tooltip {
+    display: block;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 16px;
+}
+
+.additional {
+    display: none;
+    position: absolute;
+    bottom: -40px;
+    background-color: grey;
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+}
+
+.container:hover .additional {
     display: block;
 }
