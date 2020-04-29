@@ -4,7 +4,7 @@
 
 .main-image {
     display: block;
-    margin: 200px auto 0;
+    margin: 0 auto;
     max-width: 100%;
     border-radius: 20px;
 }
