@@ -1,8 +1,12 @@
 .image {
-    display: inline-block;
+    /* display: inline-block; */
     width: 200px;
     height: 200px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.gallery {
+    display: flex;
 }
