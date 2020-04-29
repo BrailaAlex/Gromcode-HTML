@@ -1,5 +1,5 @@
 /* * {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 .image-container {
@@ -11,6 +11,7 @@
     margin: auto;
     max-width: 100%;
     border-radius: 20px;
+    flex-shrink: initial;
 }
 
 .gallery {
@@ -20,6 +21,12 @@
 .card {
     margin: 16px;
     box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+
+.caption {
+    line-height: 30px;
+    text-align: center;
+    text-transform: lowercase;
 }
 
 .opacity-filter {
@@ -32,12 +39,6 @@
 
 .invert-filter {
     filter: invert(100%);
-}
-
-.caption {
-    line-height: 30px;
-    text-align: center;
-    text-transform: lowercase;
 } */
 
 * {
@@ -57,27 +58,26 @@
     margin: 16px;
 }
 
-.main-image {
+.main-picture {
     display: block;
     max-width: 100%;
     border-radius: 20px;
     margin: auto;
 }
 
-.opacity-filter {
+.opacity {
     filter: opacity(50%);
 }
 
 .caption {
     text-align: center;
     line-height: 30px;
-    text-transform: lowercase;
 }
 
-.blur-filter {
+.blur {
     filter: blur(4px);
 }
 
-.invert-filter {
+.invert {
     filter: invert(100%);
 }
