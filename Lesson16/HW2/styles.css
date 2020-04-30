@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.boxForm {
+    margin: 32px;
+}
+
+.boxInput {
+    display: block;
+    margin: 8px;
+    align-self: flex-start;
+}
+
+.languages {
+    margin: 8px;
+}
