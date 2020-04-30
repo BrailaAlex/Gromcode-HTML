@@ -1,11 +1,9 @@
-.boxForm {
+form {
     margin: 32px;
 }
 
-.boxInput {
-    display: block;
+.form-control {
     margin: 8px;
-    align-self: flex-start;
 }
 
 .languages {
