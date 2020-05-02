@@ -10,7 +10,7 @@
     margin: auto;
     font-size: 16px;
     text-transform: uppercase;
-    animation: blinking 2s;
+    animation: blinking 2s linear;
     animation-iteration-count: infinite;
 }
 
@@ -24,7 +24,7 @@
     width: 10px;
     height: 4px;
     border-radius: 2px;
-    animation: moving 2s linear;
+    animation: moving 2s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
