@@ -27,6 +27,10 @@ body {
     animation-fill-mode: forwards;
 }
 
+p {
+    margin: 0;
+}
+
 @keyframes moving {
     from {
         left: calc(50% - 100px);
