@@ -10,13 +10,17 @@
     position: relative;
     animation: blinking 2s linear;
     animation-iteration-count: infinite;
-}
-
-.spinner-text {
     font-family: monospace;
     font-size: 16px;
     text-transform: uppercase;
 }
+
+
+/* .spinner-text {
+    font-family: monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+} */
 
 .rect {
     position: absolute;
