@@ -1,3 +1,15 @@
+@media screen and (max-width: 600px) {
+    .nav-list {
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .fa-bars {
+        visibility: hidden;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
@@ -11,20 +23,20 @@ html {
     display: flex;
     align-items: center;
     height: 3em;
-    padding: 0 1em;
+    padding: 1em;
     background-color: #eee;
 }
 
 .fa-bars {
+    display: block;
     font-size: 2em;
 }
 
 .header-button {
-    display: none;
     padding: 0;
     outline: none;
     border: none;
-    background: none;
+    background-color: transparent;
     cursor: pointer;
 }
 
@@ -52,13 +64,4 @@ html {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-}
-
-@media screen and (max-width: 600px) {
-    .nav-list {
-        visibility: hidden;
-    }
-    .header-button {
-        display: block;
-    }
 }
