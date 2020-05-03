@@ -11,12 +11,15 @@ html {
     display: flex;
     align-items: center;
     height: 3em;
-    padding: 1em;
+    padding: 0 1em;
     background-color: #eee;
 }
 
+.fa-bars {
+    font-size: 2em;
+}
+
 .header-button {
-    height: 2em;
     display: none;
     padding: 0;
     outline: none;
