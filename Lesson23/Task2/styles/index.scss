@@ -15,7 +15,6 @@ body {
     height: 100px;
     background-color: #ff7f50;
     margin: 8px;
-    margin-bottom: 16px;
     @include for-medium-up {
         background-color: #8a2be2;
     }
@@ -28,7 +27,9 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     @include for-landscape {
-        display: flex;
+        flex-direction: row;
     }
 }

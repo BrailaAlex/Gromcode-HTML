@@ -14,7 +14,6 @@ body {
   height: 100px;
   background-color: #ff7f50;
   margin: 8px;
-  margin-bottom: 16px;
 }
 @media screen and (min-width: 600px) {
   .square {
@@ -32,9 +31,13 @@ body {
   }
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
 @media screen and (orientation: landscape) {
   .container {
-    display: flex;
+    flex-direction: row;
   }
 }
 
