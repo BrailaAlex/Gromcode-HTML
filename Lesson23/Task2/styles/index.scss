@@ -10,6 +10,14 @@ body {
     height: 100vh;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    @include for-landscape {
+        flex-direction: row;
+    }
+}
+
 .square {
     width: 100px;
     height: 100px;
@@ -23,13 +31,5 @@ body {
     }
     @include for-xtra-large-up {
         background-color: #c47;
-    }
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    @include for-landscape {
-        flex-direction: row;
     }
 }
