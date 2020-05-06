@@ -52,7 +52,7 @@
                             width: 147px;
                             height: 25px;
                             background: #DC3F45;
-                            font-weight: bold;
+                            font-weight: 500px;
                             font-size: 14px;
                             line-height: 17px;
                             color: #FFFFFF;
@@ -104,6 +104,8 @@
             font-size: 55px;
         }
         &__description {
+            width: 327px;
+            height: 36px;
             font-style: normal;
             font-weight: 300;
             font-size: 15px;
@@ -117,6 +119,7 @@
             padding: 0;
             list-style-type: none;
             &__contain {
+                font-size: 15px;
                 display: flex;
                 align-items: center;
                 height: 50px;
@@ -128,6 +131,12 @@
                     width: 15px;
                     height: 13px;
                     margin: auto 22px;
+                }
+                &__description {
+                    display: block;
+                    width: 300;
+                    height: 18px;
+                    line-height: 18px;
                 }
             }
         }
