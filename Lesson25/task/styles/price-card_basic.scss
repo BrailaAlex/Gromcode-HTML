@@ -41,26 +41,37 @@
                     width: 163px;
                     margin: 33px 108px;
                     &-badge {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                         position: absolute;
-                        width: 104px;
-                        height: 104px;
-                        transform: translate(276px);
-                        overflow: hidden;
-                        &__stripe {
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            position: absolute;
-                            width: 147px;
-                            height: 25px;
-                            background: #DC3F45;
-                            font-weight: 700;
-                            font-size: 14px;
-                            line-height: 17px;
-                            color: #FFFFFF;
-                            border: none;
-                            transform: translate(-12px, 30px) rotate(45deg);
-                        }
+                        transform: rotate(45deg);
+                        height: 25.01px;
+                        width: 147.08px;
+                        left: 265px;
+                        bottom: 715px;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 17px;
+                        background-color: #DC3F45;
+                        background: linear-gradient(135deg, transparent 18px, #DC3F45 0) top left, linear-gradient(225deg, transparent 18px, #DC3F45 0) top right;
+                        background-size: 53% 92%;
+                        background-repeat: no-repeat;
+                        // &__stripe {
+                        //     display: flex;
+                        //     justify-content: center;
+                        //     align-items: center;
+                        //     position: absolute;
+                        //     width: 147px;
+                        //     height: 25px;
+                        //     background: #DC3F45;
+                        //     font-weight: 700;
+                        //     font-size: 14px;
+                        //     line-height: 17px;
+                        //     color: #FFFFFF;
+                        //     border: none;
+                        //     transform: translate(-12px, 30px) rotate(45deg);
+                        // }
                     }
                 }
             }
