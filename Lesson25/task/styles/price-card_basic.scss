@@ -24,7 +24,7 @@
                 &__order-btn {
                     background-color: #5BB189;
                 }
-                &__tile {
+                &__title {
                     width: 100px;
                 }
             }
@@ -36,8 +36,30 @@
                 &__order-btn {
                     background-color: #3A6BA5;
                 }
-                &__tile {
+                &__title {
                     width: 163px;
+                    &-badge {
+                        position: absolute;
+                        width: 104px;
+                        height: 104px;
+                        transform: translate(193%);
+                        overflow: hidden;
+                        &__stripe {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            position: absolute;
+                            width: 147px;
+                            height: 25px;
+                            background: #DC3F45;
+                            font-weight: bold;
+                            font-size: 14px;
+                            line-height: 17px;
+                            color: #FFFFFF;
+                            border: none;
+                            transform: translate(-12px, 31px) rotate(45deg);
+                        }
+                    }
                 }
             }
         }
@@ -47,7 +69,7 @@
                 &__order-btn {
                     background-color: #EC632A;
                 }
-                &__tile {
+                &__title {
                     width: 176px;
                 }
             }
@@ -69,28 +91,6 @@
                 font-size: 20px;
                 font-weight: 300;
                 line-height: 24px;
-            }
-            &-badge {
-                position: absolute;
-                width: 104px;
-                height: 104px;
-                transform: translate(193%);
-                overflow: hidden;
-                &__stripe {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    position: absolute;
-                    width: 147px;
-                    height: 25px;
-                    background: #DC3F45;
-                    font-weight: bold;
-                    font-size: 14px;
-                    line-height: 17px;
-                    color: #FFFFFF;
-                    border: none;
-                    transform: translate(-12px, 30px) rotate(45deg);
-                }
             }
         }
         &__price {

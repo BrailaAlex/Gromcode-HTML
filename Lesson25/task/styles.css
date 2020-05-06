@@ -21,7 +21,7 @@
 .price-card:nth-child(1) .price-card__price, .price-card:nth-child(1) .price-card__order-btn {
   background-color: #5BB189;
 }
-.price-card:nth-child(1) .price-card__tile {
+.price-card:nth-child(1) .price-card__title {
   width: 100px;
 }
 .price-card:nth-child(2) {
@@ -30,13 +30,35 @@
 .price-card:nth-child(2) .price-card__price, .price-card:nth-child(2) .price-card__order-btn {
   background-color: #3A6BA5;
 }
-.price-card:nth-child(2) .price-card__tile {
+.price-card:nth-child(2) .price-card__title {
   width: 163px;
+}
+.price-card:nth-child(2) .price-card__title-badge {
+  position: absolute;
+  width: 104px;
+  height: 104px;
+  transform: translate(193%);
+  overflow: hidden;
+}
+.price-card:nth-child(2) .price-card__title-badge__stripe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 147px;
+  height: 25px;
+  background: #DC3F45;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  border: none;
+  transform: translate(-12px, 31px) rotate(45deg);
 }
 .price-card:nth-child(3) .price-card__price, .price-card:nth-child(3) .price-card__order-btn {
   background-color: #EC632A;
 }
-.price-card:nth-child(3) .price-card__tile {
+.price-card:nth-child(3) .price-card__title {
   width: 176px;
 }
 .price-card__head {
@@ -57,28 +79,6 @@
   font-size: 20px;
   font-weight: 300;
   line-height: 24px;
-}
-.price-card__title-badge {
-  position: absolute;
-  width: 104px;
-  height: 104px;
-  transform: translate(193%);
-  overflow: hidden;
-}
-.price-card__title-badge__stripe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  width: 147px;
-  height: 25px;
-  background: #DC3F45;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  color: #FFFFFF;
-  border: none;
-  transform: translate(-12px, 30px) rotate(45deg);
 }
 .price-card__price {
   text-align: center;
