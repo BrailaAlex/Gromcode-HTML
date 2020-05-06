@@ -33,25 +33,30 @@
 }
 .price-card:nth-child(2) .price-card__title {
   width: 163px;
-  margin: 33px 108px;
+  margin: 33px 108px 34px 108px;
 }
 .price-card:nth-child(2) .price-card__title-badge {
+  display: flex;
+  position: absolute;
+  width: 104px;
+  height: 104px;
+  transform: translate(276px);
+  overflow: hidden;
+}
+.price-card:nth-child(2) .price-card__title-badge__stripe {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  transform: rotate(45deg);
-  height: 25.01px;
-  width: 147.08px;
-  left: 265px;
-  bottom: 715px;
+  width: 147px;
+  height: 25px;
+  background: #DC3F45;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  background-color: #DC3F45;
-  background: linear-gradient(135deg, transparent 18px, #DC3F45 0) top left, linear-gradient(225deg, transparent 18px, #DC3F45 0) top right;
-  background-size: 53% 92%;
-  background-repeat: no-repeat;
+  color: #FFFFFF;
+  border: none;
+  transform: translate(-12px, 30px) rotate(45deg);
 }
 .price-card:nth-child(3) .price-card__price, .price-card:nth-child(3) .price-card__order-btn {
   background-color: #EC632A;
