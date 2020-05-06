@@ -50,12 +50,12 @@
   width: 147px;
   height: 25px;
   background: #DC3F45;
-  font-weight: 500px;
+  font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
   border: none;
-  transform: translate(-11px, 31px) rotate(45deg);
+  transform: translate(-12px, 30px) rotate(45deg);
 }
 .price-card:nth-child(3) .price-card__price, .price-card:nth-child(3) .price-card__order-btn {
   background-color: #EC632A;
