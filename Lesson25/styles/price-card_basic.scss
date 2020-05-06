@@ -1,32 +1,16 @@
-.business {
-    .price-card {
-        position: relative;
-        &_price,
-        &__order-btn {
-            background-color: #3A6BA5;
-        }
-    }
-}
-
-.webshop {
-    .price-card {
-        &_price,
-        &__order-btn {
-            background-color: #EC632A;
-        }
-    }
-}
-
 .price {
-    &__table {
+    &__tables {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100vw;
-        background-color: #141b1c;
+        width: 1440px;
+        height: 1000px;
+        background: #141B1C
     }
     &-card {
         display: flex;
+        flex: 0 0 auto;
         flex-direction: column;
         align-items: center;
         width: 380px;
@@ -34,30 +18,63 @@
         background-color: #334247;
         margin: 9px;
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-        &_head {
+        &:nth-child(1) {
+            .price-card {
+                &__price,
+                &__order-btn {
+                    background-color: #5BB189;
+                }
+                &__tile {
+                    width: 100px;
+                }
+            }
+        }
+        &:nth-child(2) {
+            position: relative;
+            .price-card {
+                &__price,
+                &__order-btn {
+                    background-color: #3A6BA5;
+                }
+                &__tile {
+                    width: 163px;
+                }
+            }
+        }
+        &:nth-child(3) {
+            .price-card {
+                &__price,
+                &__order-btn {
+                    background-color: #EC632A;
+                }
+                &__tile {
+                    width: 176px;
+                }
+            }
+        }
+        &__head {
             display: flex;
         }
         &__title {
-            margin: 33px auto;
+            margin: 33px;
             height: 64px;
             font-style: normal;
             font-weight: 700;
-            font-size: 36px;
+            font-size: 35px;
             line-height: 43px;
             text-align: center;
             display: flex;
             flex-direction: column;
-            font-weight: bold;
-            &-sub {
+            &-s {
                 font-size: 20px;
                 font-weight: 300;
                 line-height: 24px;
             }
             &-badge {
                 position: absolute;
-                width: 96px;
+                width: 104px;
                 height: 104px;
-                transform: translate(174px);
+                transform: translate(193%);
                 overflow: hidden;
                 &__stripe {
                     display: flex;
@@ -72,11 +89,11 @@
                     line-height: 17px;
                     color: #FFFFFF;
                     border: none;
-                    transform: translate(-20px, 22px) rotate(45deg);
+                    transform: translate(-12px, 30px) rotate(45deg);
                 }
             }
         }
-        &_price {
+        &__price {
             text-align: center;
             width: 100%;
             height: 105px;
@@ -86,7 +103,7 @@
             font-weight: bold;
             font-size: 55px;
         }
-        &__descr {
+        &__description {
             font-style: normal;
             font-weight: 300;
             font-size: 15px;
@@ -107,9 +124,6 @@
                 &:nth-child(odd) {
                     background-color: #2A3438;
                 }
-                &:nth-child(even) {
-                    background-color: #1F3D63;
-                }
                 &-checkmark {
                     width: 15px;
                     height: 13px;
@@ -128,15 +142,6 @@
             font-size: 14px;
             line-height: 17px;
             text-align: center;
-        }
-    }
-}
-
-.basic {
-    .price-card {
-        &_price,
-        &__order-btn {
-            background-color: #5BB189;
         }
     }
 }
